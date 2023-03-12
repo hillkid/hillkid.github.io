@@ -1,5 +1,10 @@
 iframe{
-  max-height: 85vh;
-  max-width: 85vh;
+  /* max-height: 85vh;
+  max-width: 85vh; */
   /* margin: auto; */
 }
+/* @media (min-width: 768px) {
+  #myresult{
+    max-height: 70vh;
+  }
+} */

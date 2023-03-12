@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>阿明</title>
+  <title>阿明練習</title>
   <link href="./hillkid/favicon.ico" rel="shortcut icon"/>
   <link rel="shortcut icon" href="./hillkid/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./hillkid/twicon.css">
@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="hillkid.css">
 
 </head>
-<body><div class="container-fuild">
+<body><div class="container">
 <!-- fixed-top  -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
   <div class="container-fluid">
@@ -34,24 +34,43 @@
     </div>
   </div>
 </nav>
-<!-- row col-12 col-md-9 col-lg-8 w-100 h-100 container-xl rounded-3 mh-100 m-0 mx-auto  -->
-<main id="myresult" class="">
-  <h2 class="">
+
+<article id="myresult" class="rounded-3 bg-primary row justify-content-center">
+  <h1 class="text-warning col d-md-none">
     小作品：太陽鐘
-  </h2>
-  <div class="row">
-    <section class="col-12 col-md-9 col-lg-7">
-      <div class="ratio ratio-1x1 ">
-        <iframe class="p-1" name="result" src="https://hillkid.github.io/233solar/">
-        </iframe>
-      </div>
-    </section>
-    <section class="col-12 col-md-3 col-lg-5 bg-secondary p-1">
-      測試說明
+  </h1>
+  <div class="order-md-first col-md-8 col-lg-7 col-xl-6 ">
+    <section class="ratio ratio-1x1 ">
+      <iframe class="rounded-4 p-1 py-md-2" name="result" src="https://hillkid.github.io/233solar/">
+      </iframe>
     </section>
   </div>
-</main>
+  <div class="text-light col-md-4 col-lg-4 col-xl-4 py-md-2 ">
+    <h2 class="text-warning d-none d-md-block">
+      小作品：太陽鐘
+    </h2>
+    <h4 class="text-danger">RWD響應</h4>
+    <li>鐘面可隨視窗改變任意大小<br>　 請點開測試(<a href="https://hillkid.github.io/233solar/" class="text-warning" target="_blank">太陽鐘</a>)。
+    </li>
+    <h4 class="text-danger">JS 應用</h4>
+    <li>日夜不同背景、不同星球<br>　(可點按時鐘選各時區測試)</li>
+    <li>顯示 a.m 或 p.m.</li>
+    <li>按鈕點擊後20秒自動隱藏</li>
+    <li>四種功能各隱現不同天體</li>
+    <li>碼表和蕃茄鐘秒數會顯示<br>
+        　 在瀏覽器標題欄(<a href="https://hillkid.github.io/233solar/" class="text-warning" target="_blank">請點開</a>)</li>
+    <li>太陽系有各行星相對速度</li>
+    <h4 class="text-danger">CSS 應用</h4>
+    <li>點擊星球可見各天體介紹</li>
+    <li>每3分鐘有哈雷彗星經過</li>
+  </div>
+</article>
+
+<!--  class="text-white"row col-12 col-md-9 col-lg-8 w-100 h-100 container-xl mh-100 m-0 mx-auto col col-lg-10 col-xl-9 col-xxl-6 bg-secondary col-lg-6 col-xl-5 flex-column flex-wrap mh-100  -->
+<article>
+
+</article>
 
 </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
