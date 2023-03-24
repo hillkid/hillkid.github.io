@@ -1,13 +1,13 @@
 <!DOCTYPE html><html lang="zh"><head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>阿明練習</title>
   <link href="./hillkid/favicon.ico" rel="shortcut icon"/>
   <link rel="shortcut icon" href="./hillkid/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./hillkid/twicon.css">
   <link rel="stylesheet" href="./hillkid/bootstrap530.css">
-  <link rel="stylesheet" href="hillkid.css">
+  <title>阿明練習</title>
 </head>
+
 <body><div class="container">
 <!-- fixed-top  -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -18,30 +18,67 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarMarkup">
+    <section class="collapse navbar-collapse" id="navbarMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" href="#myresult">小作品</a>
         <a class="nav-link" href="#someresult">其他練習</a>
         <a class="nav-link" href="#aboutme">簡歷</a>
-        <!-- <a class="nav-link disabled">Disabled</a> -->
       </div>
-    </div>
+    </section>
+
   </div>
 </nav>
 
 <article id="myresult" class="rounded-3 bg-primary row justify-content-center">
-  <a href="https://hillkid.github.io/233solar/" class="" target="_blank">
+  <a href="https://hillkid.github.io/234work/u14todo/" target="_blank">
+    <h1 class="text-danger fw-bold  col d-lg-none">
+    Vue練習：TodoList
+  </h1></a>
+  <div class="col-lg-9 order-lg-2">
+    <!-- <section class="ratio ratio-1x1 "> -->
+      <iframe class="rounded-4 p-1 py-md-2 w-100 h-100" name="result2" src="https://hillkid.github.io/234work/u14todo/" style="min-height: 300px;">
+      </iframe>
+    <!-- </section> -->
+  </div>
+  <div class="text-light col-lg-3 row py-md-2">
+    <section class="col-6 col-lg-12">
+      <a href="https://hillkid.github.io/234work/u14todo/" target="_blank">
+        <h2 class="text-danger fw-bold d-none d-lg-block">
+          Vue練習：<br>　 TodoList
+      </h2></a>
+      </li>
+      <!-- <h4 class="text-warning">JS 應用</h4> -->
+      <li>練習 Vue的基本功能</li>
+      <li>清單區無待辦項則隱藏</li>
+      <li>會分成待辦區&完成區</li>
+      <li>資料存localStorage</li>
+      <li>可以重新編輯單筆資料</li>
+    </section>
+    <section class="col-6 col-lg-12">
+      <li>有三種排序方式<br>
+        　　依標題排序<br>
+        　　依日期排序<br>
+        　　依類別排序<br>
+        　　三種都可正反排序<br>
+      </li>
+      <li>看成品(<a href="https://hillkid.github.io/234work/u14todo/" class="text-warning" target="_blank">Demo</a>)。
+    </section>
+  </div>
+</article>
+
+<article class="rounded-3 bg-primary row justify-content-center mt-2">
+  <a href="https://hillkid.github.io/233solar/" target="_blank">
     <h1 class="text-danger fw-bold  col d-md-none">
     小作品：太陽鐘
   </h1></a>
   <div class="col-md-8 col-lg-7">
     <section class="ratio ratio-1x1 ">
-      <iframe class="rounded-4 p-1 py-md-2" name="result" src="https://hillkid.github.io/233solar/">
+      <iframe class="rounded-4 p-1 py-md-2" name="result1" src="https://hillkid.github.io/233solar/">
       </iframe>
     </section>
   </div>
   <div class="text-light col-8 col-md-4 py-md-2 ">
-    <a href="https://hillkid.github.io/233solar/" class="" target="_blank">
+    <a href="https://hillkid.github.io/233solar/" target="_blank">
       <h2 class="text-danger fw-bold d-none d-md-block">
       小作品：太陽鐘
     </h2></a>
@@ -62,7 +99,7 @@
   </div>
 </article>
 
-<footer id="aboutme" class="text-center my-5">
+<header id="aboutme" class="text-center my-5">
   <h1>陳義明</h1>
   喜歡與人溝通，能夠團隊合作。持續學習！<br>
   <a href="mailto:hillkid@gmail.com">hillkid@gmail.com</a> 　
@@ -71,7 +108,7 @@
   正學習程式語言作為轉職技能。<br>
   現階段規劃：充實熟練前端工程師語言，<br>
   並結合自己經常與人溝通的經驗。<br>
-</footer>
+</header>
 
 <article id="" class="rounded-3 bg-secondary row justify-content-center">
   <div class="text-light col-8 col-md-3 col-lg-2 col-xl-9 py-md-2 ">
@@ -166,7 +203,7 @@
   <div class=" col-md-11 col-lg-9 col-xl-7">
     <section class=" row g-1">
       <div class="col-7 col-md-6 col-lg-6">
-        <a href="https://hillkid.github.io/231course/" class="" target="_blank"><h1 class="text-danger fw-bold">
+        <a href="https://hillkid.github.io/231course/" target="_blank"><h1 class="text-danger fw-bold">
           職訓班課程期中整理
         </h1></a>
         <li>練習應用所學作成一頁式網站</li>
@@ -177,7 +214,7 @@
         <li>看成品(<a href="https://hillkid.github.io/231course/" class="text-warning" target="_blank">Demo</a>)</li>
       </div>
       <div class="col-5 col-md-6 col-lg-6">
-        <a href="https://hillkid.github.io/231course/" class="" target="_blank"><img src="./hillkid/exam-6.jpg" class="img-fluid" alt=""></a>
+        <a href="https://hillkid.github.io/231course/" target="_blank"><img src="./hillkid/exam-6.jpg" class="img-fluid" alt=""></a>
       </div>
     </section>
   </div>
